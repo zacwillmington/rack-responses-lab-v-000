@@ -6,7 +6,7 @@ class Application
          time = Time.new
 
          if time.hour.between?(0,12)
-            resp.write "Morning or Afternoon"
+            resp.write "Morning"
         elsif time.hour.between?(12,24)
             resp.write "Afternoon"
          end
